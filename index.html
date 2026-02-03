@@ -82,7 +82,6 @@
             font-size: 1.1em;
             text-align: justify;
         }
-        /* עיצוב כפתור צור קשר */
         .contact-button-container {
             text-align: center;
             margin-top: 40px;
@@ -97,15 +96,11 @@
             font-size: 1.2em;
             transition: background-color 0.3s;
             display: inline-block;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-        .contact-button:hover {
-            background-color: #1a5276;
         }
         @media print {
             body { background-color: white; padding: 0; }
             .resume-container { box-shadow: none; padding: 20px; }
-            .contact-button-container { display: none; } /* הסתרת הכפתור בהדפסה */
+            .contact-button-container { display: none; }
         }
     </style>
 </head>
@@ -123,25 +118,32 @@
 
     <h2>תמצית מקצועית</h2>
     <div class="summary">
-        איש חינוך מנוסה בעל מומחיות בניהול פדגוגי, הוראה מותאמת והדרכת צוותים. בעל רקע נרחב בעבודה עם תלמידים עם לקויות למידה והפרעות קשב, ריכוז מערך התאמות והיבחנות, והקמת תוכניות התערבות לימודיות במגזר הציבורי והעירוני. מומחה בליווי רגשי ולימודי של נוער בסיכון.
+        איש חינוך מנוסה בעל מומחיות בניהול פדגוגי, הוראה מותאמת והדרכת צוותים. בעל רקע נרחב בעבודה עם תלמידים עם לקויות למידה והפרעות קשב, ריכוז מערך התאמות והיבחנות, והקמת תוכניות התערבות לימודיות.
     </div>
 
     <h2>ניסיון תעסוקתי</h2>
 
     <div class="experience-item">
         <div class="title-row">
-            <span>מרצה בתחום לקויות הלמידה והוראה הטרוגנית</span>
-            <span>2025 – כיום</span>
+            <span>מנחה תוכניות השתלמות למורים</span>
+            <span>2023 – כיום</span>
         </div>
-        <div class="subtitle">מכללת תלפיות, חולון</div>
+        <div class="subtitle">משרד החינוך, אגף לקויות למידה</div>
+        <ul>
+            <li>הנחיית השתלמויות לצוותים בחטיבות ביניים ובתיכונים בתוכנית "משיקים".</li>
+        </ul>
     </div>
 
     <div class="experience-item">
         <div class="title-row">
-            <span>עריכה לשונית והגהת ספרי לימוד בלשון, סדרת חזק</span>
+            <span>עריכה לשונית והגהת ספרי לימוד</span>
             <span>2024 – 2025</span>
         </div>
         <div class="subtitle">לומדים להצליח בע"מ – ציפי משולם</div>
+        <ul>
+            <li>עריכת סדרת ספרי הלימוד בלשון "חזק".</li>
+            <li>ליווי צוותי הוראה ביישום אסטרטגיות למידה והוראה מותאמת.</li>
+        </ul>
     </div>
 
     <div class="experience-item">
@@ -154,48 +156,28 @@
 
     <div class="experience-item">
         <div class="title-row">
-            <span>מנחה תוכניות השתלמות למורים</span>
-            <span>2023 – כיום</span>
-        </div>
-        <div class="subtitle">משרד החינוך, אגף לקויות למידה</div>
-        <ul>
-            <li>הנחיית השתלמויות בתוכנית משיקים.</li>
-            <li>ליווי צוותי הוראה ביישום אסטרטגיות למידה והוראה מותאמת.</li>
-        </ul>
-    </div>
-
-    <div class="experience-item">
-        <div class="title-row">
             <span>מנהל תיכון ומורה מקצועי לבגרות</span>
             <span>2021 – 2023</span>
         </div>
-        <div class="subtitle">תיכון ידעת משה – תיכון טכנולוגי לבנים עם לקויות למידה</div>
-        <ul>
-            <li>ניהול פדגוגי וארגוני מלא של המוסד.</li>
-            <li>הוראה והגשה לבגרות במקצועות הלשון והספרות.</li>
-            <li>ריכוז מערך ההתאמות הבית-ספרי.</li>
-        </ul>
+        <div class="subtitle">תיכון "דעת משה" – תיכון טכנולוגי לבנים עם לקויות למידה</div>
     </div>
 
     <div class="experience-item">
         <div class="title-row">
-            <span>מנהל ורכז תוכניות לימודיות</span>
+            <span>מנהל ורכז תוכניות לימודיות (פל"א והילה)</span>
             <span>2015 – 2021</span>
         </div>
         <div class="subtitle">עיריית תל אביב, המחלקה לקידום ילדים ונוער</div>
-        <ul>
-            <li><strong>תוכנית פל"א:</strong> הקמה וניהול מערך התערבות לימודית לנוער.</li>
-            <li><strong>תוכנית היל"ה:</strong> ריכוז לימודי והוראה מותאמת במגוון מקצועות: קודש, לשון, מתמטיקה ומחשבים.</li>
-        </ul>
     </div>
 
     <h2>השכלה והכשרות</h2>
     <div class="education-item">
         <ul>
-            <li><strong>2024–2025:</strong> הכשרת הנחיית מורים להיות בקשב לקשב, אגף לקויות למידה, משרד החינוך.</li>
-            <li><strong>2022–2023:</strong> תואר שני בניהול וארגון מוסדות חינוך, מכללת אורות ישראל.</li>
-            <li><strong>2019–2022:</strong> תואר שני בחינוך מיוחד, התמחות בלקויות למידה, בהצטיינות, מכללת תלפיות.</li>
-            <li><strong>2014–2019:</strong> תואר ראשון בחינוך מיוחד ותושב"ע, בהצטיינות יתרה, אורות ישראל.</li>
+            <li><strong>2024–2025:</strong> הכשרת הנחיית מורים בתכנית "להיות בקשב לקשב", אגף לקויות למידה, משרד החינוך.</li>
+            <li><strong>2023–2024:</strong> הכשרת הנחיית מורים בתכנית "משיקים", אגף לקויות למידה, משרד החינוך.</li>
+            <li><strong>.M.Ed תואר שני בניהול וארגון מוסדות חינוך</strong>, מכללת אורות ישראל.</li>
+            <li><strong>.M.Ed תואר שני בחינוך מיוחד (בהצטיינות)</strong>, מכללת תלפיות.</li>
+            <li><strong>.B.Ed תואר ראשון בחינוך מיוחד ותושב"ע (בהצטיינות יתרה)</strong>, אורות ישראל.</li>
             <li><strong>2016:</strong> לימודי תעודה בניתוח התנהגות ABA, מרכז מטרה.</li>
             <li><strong>2008–2014:</strong> לימודים תורניים גבוהים, ישיבת אש התלמוד, ירושלים.</li>
         </ul>
@@ -205,12 +187,12 @@
     <div class="experience-item">
         <ul>
             <li>שירות מילואים קרבי פעיל.</li>
-            <li>שירות סדיר 2005-2008 כלוחם ביחידת דוכיפת ולוחם מודיעין בשפה הערבית.</li>
+            <li>שירות סדיר 2005-2008 כלוחם ביחידת דוכיפת ומודיעין ערבית.</li>
         </ul>
     </div>
 
     <div class="contact-button-container">
-        <a href="mailto:harigarbi12345@gmail.com?subject=פנייה בעקבות קורות החיים שלך" class="contact-button">צרו קשר בדוא"ל</a>
+        <a href="mailto:harigarbi12345@gmail.com" class="contact-button">צרו קשר בדוא"ל</a>
     </div>
 
     <footer style="text-align: center; margin-top: 30px; color: #7f8c8d; font-size: 0.9em;">
